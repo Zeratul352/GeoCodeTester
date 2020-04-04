@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GeocodeResponse>
+  <status>OK</status>
+  <result>
+    <type>street_address</type>
+    <formatted_address>Academician Amosov St, 45, Liubotyn, Kharkivs'ka oblast, Ukraine, 62435</formatted_address>
+    <address_component>
+      <long_name>45</long_name>
+      <short_name>45</short_name>
+      <type>street_number</type>
+    </address_component>
+    <address_component>
+      <long_name>Academician Amosov Street</long_name>
+      <short_name>Academician Amosov St</short_name>
+      <type>route</type>
+    </address_component>
+    <address_component>
+      <long_name>Liubotyn</long_name>
+      <short_name>Liubotyn</short_name>
+      <type>locality</type>
+      <type>political</type>
+    </address_component>
+    <address_component>
+      <long_name>Lyubotyns'ka city council</long_name>
+      <short_name>Lyubotyns'ka city council</short_name>
+      <type>administrative_area_level_3</type>
+      <type>political</type>
+    </address_component>
+    <address_component>
+      <long_name>Kharkivs'ka oblast</long_name>
+      <short_name>Kharkivs'ka oblast</short_name>
+      <type>administrative_area_level_1</type>
+      <type>political</type>
+    </address_component>
+    <address_component>
+      <long_name>Ukraine</long_name>
+      <short_name>UA</short_name>
+      <type>country</type>
+      <type>political</type>
+    </address_component>
+    <address_component>
+      <long_name>62435</long_name>
+      <short_name>62435</short_name>
+      <type>postal_code</type>
+    </address_component>
+    <geometry>
+      <location>
+        <lat>49.9352312</lat>
+        <lng>35.9425176</lng>
+      </location>
+      <location_type>ROOFTOP</location_type>
+      <viewport>
+        <southwest>
+          <lat>49.9338822</lat>
+          <lng>35.9411686</lng>
+        </southwest>
+        <northeast>
+          <lat>49.9365802</lat>
+          <lng>35.9438666</lng>
+        </northeast>
+      </viewport>
+    </geometry>
+    <partial_match>true</partial_match>
+    <place_id>ChIJ9QIfsS2aJ0ER1IWfDqyoB1U</place_id>
+    <plus_code>
+      <global_code>8GXQWWPV+32</global_code>
+      <compound_code>WWPV+32 Lyubotyn, Kharkiv Oblast, Ukraine</compound_code>
+    </plus_code>
+  </result>
+</GeocodeResponse>

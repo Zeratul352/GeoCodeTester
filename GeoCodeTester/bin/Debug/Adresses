@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ArrayOfLandPoint xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LandPoint>
+    <place_id>ChIJxSlvuYmZJ0EROcVHhRimz7c</place_id>
+    <id>0</id>
+    <adress>Provulok Sanitarnyy, 6, Liubotyn, Kharkivs'ka oblast, Ukraine, 62434</adress>
+    <coordinates>
+      <Lat>49.947582</Lat>
+      <Lng>35.9391456</Lng>
+    </coordinates>
+  </LandPoint>
+  <LandPoint>
+    <place_id>ChIJ9QIfsS2aJ0ER1IWfDqyoB1U</place_id>
+    <id>1</id>
+    <adress>Academician Amosov St, 45, Liubotyn, Kharkivs'ka oblast, Ukraine, 62435</adress>
+    <coordinates>
+      <Lat>49.9352312</Lat>
+      <Lng>35.9425176</Lng>
+    </coordinates>
+  </LandPoint>
+</ArrayOfLandPoint>
