@@ -84,7 +84,15 @@ namespace GeoCodeTester
             command = Console.ReadLine();
             while(command != "break"){
                 LandPoint temp = LandPoint.Geocode(command);
-                Console.WriteLine(temp.adress);
+                if(temp == null)
+                {
+                    Console.WriteLine("Nothing found");
+                }
+                else
+                {
+                    Console.WriteLine(temp.adress);
+                }
+                
                 command = Console.ReadLine();
                 if(command == "ok")
                 {
