@@ -2,69 +2,77 @@
 <GeocodeResponse>
   <status>OK</status>
   <result>
-    <type>street_address</type>
-    <formatted_address>Academician Amosov St, 45, Liubotyn, Kharkivs'ka oblast, Ukraine, 62435</formatted_address>
+    <type>bar</type>
+    <type>establishment</type>
+    <type>night_club</type>
+    <type>point_of_interest</type>
+    <formatted_address>1315 W North Ave, Chicago, IL 60642, USA</formatted_address>
     <address_component>
-      <long_name>45</long_name>
-      <short_name>45</short_name>
+      <long_name>1315</long_name>
+      <short_name>1315</short_name>
       <type>street_number</type>
     </address_component>
     <address_component>
-      <long_name>Academician Amosov Street</long_name>
-      <short_name>Academician Amosov St</short_name>
+      <long_name>West North Avenue</long_name>
+      <short_name>W North Ave</short_name>
       <type>route</type>
     </address_component>
     <address_component>
-      <long_name>Liubotyn</long_name>
-      <short_name>Liubotyn</short_name>
+      <long_name>Pulaski Park</long_name>
+      <short_name>Pulaski Park</short_name>
+      <type>neighborhood</type>
+      <type>political</type>
+    </address_component>
+    <address_component>
+      <long_name>Chicago</long_name>
+      <short_name>Chicago</short_name>
       <type>locality</type>
       <type>political</type>
     </address_component>
     <address_component>
-      <long_name>Lyubotyns'ka city council</long_name>
-      <short_name>Lyubotyns'ka city council</short_name>
-      <type>administrative_area_level_3</type>
+      <long_name>Cook County</long_name>
+      <short_name>Cook County</short_name>
+      <type>administrative_area_level_2</type>
       <type>political</type>
     </address_component>
     <address_component>
-      <long_name>Kharkivs'ka oblast</long_name>
-      <short_name>Kharkivs'ka oblast</short_name>
+      <long_name>Illinois</long_name>
+      <short_name>IL</short_name>
       <type>administrative_area_level_1</type>
       <type>political</type>
     </address_component>
     <address_component>
-      <long_name>Ukraine</long_name>
-      <short_name>UA</short_name>
+      <long_name>United States</long_name>
+      <short_name>US</short_name>
       <type>country</type>
       <type>political</type>
     </address_component>
     <address_component>
-      <long_name>62435</long_name>
-      <short_name>62435</short_name>
+      <long_name>60642</long_name>
+      <short_name>60642</short_name>
       <type>postal_code</type>
     </address_component>
     <geometry>
       <location>
-        <lat>49.9352312</lat>
-        <lng>35.9425176</lng>
+        <lat>41.9106059</lat>
+        <lng>-87.6609820</lng>
       </location>
       <location_type>ROOFTOP</location_type>
       <viewport>
         <southwest>
-          <lat>49.9338822</lat>
-          <lng>35.9411686</lng>
+          <lat>41.9092569</lat>
+          <lng>-87.6623310</lng>
         </southwest>
         <northeast>
-          <lat>49.9365802</lat>
-          <lng>35.9438666</lng>
+          <lat>41.9119549</lat>
+          <lng>-87.6596330</lng>
         </northeast>
       </viewport>
     </geometry>
-    <partial_match>true</partial_match>
-    <place_id>ChIJ9QIfsS2aJ0ER1IWfDqyoB1U</place_id>
+    <place_id>ChIJ8dVULNnSD4gREXOze2OIr8A</place_id>
     <plus_code>
-      <global_code>8GXQWWPV+32</global_code>
-      <compound_code>WWPV+32 Lyubotyn, Kharkiv Oblast, Ukraine</compound_code>
+      <global_code>86HJW86Q+6J</global_code>
+      <compound_code>W86Q+6J Chicago, Illinois, United States</compound_code>
     </plus_code>
   </result>
 </GeocodeResponse>

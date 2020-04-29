@@ -20,3 +20,5 @@ C:\Users\Andrey\source\repos\GeoCodeTester\GeoCodeTester\obj\Debug\GeoCodeTester
 C:\Users\Andrey\source\repos\GeoCodeTester\GeoCodeTester\obj\Debug\GeoCodeTester.csproj.CopyComplete
 C:\Users\Andrey\source\repos\GeoCodeTester\GeoCodeTester\obj\Debug\GeoCodeTester.exe
 C:\Users\Andrey\source\repos\GeoCodeTester\GeoCodeTester\obj\Debug\GeoCodeTester.pdb
+C:\Users\Andrey\source\repos\GeoCodeTester\GeoCodeTester\obj\Debug\GeoCodeTester.Map.resources
+C:\Users\Andrey\source\repos\GeoCodeTester\GeoCodeTester\obj\Debug\GeoCodeTester.csproj.GenerateResource.cache

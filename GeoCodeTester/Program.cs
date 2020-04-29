@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using System.Xml;
 using System.Xml.Serialization;
 
@@ -79,24 +80,45 @@ namespace GeoCodeTester
     {
         static void Main(string[] args)
         {
+            Map map = new Map();
+            Application.EnableVisualStyles();
+            Application.Run(map);
             List<LandPoint> points = new List<LandPoint>();
             string command;
+            Console.WriteLine("Add = input coordinates & adress, than add point to the list");
+            Console.WriteLine("Geocode = input adress, geocode, than wait for validation");
+            Console.WriteLine("Exit = finish and save results");
             command = Console.ReadLine();
-            while(command != "break"){
-                LandPoint temp = LandPoint.Geocode(command);
-                if(temp == null)
+            while(command != "Exit"){
+                if (command == "Add")
                 {
-                    Console.WriteLine("Nothing found");
-                }
-                else
-                {
-                    Console.WriteLine(temp.adress);
-                }
-                
-                command = Console.ReadLine();
-                if(command == "ok")
-                {
+                    Console.WriteLine("Input Latitude and Longitude in different lines");
+                    double lat = System.Convert.ToDouble(Console.ReadLine());
+                    double lng = System.Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Now input adress");
+                    string adress = Console.ReadLine();
+                    LandPoint temp = new LandPoint(1, "NO_PLACE_CODE", adress, lat, lng);
                     points.Add(temp);
+                }
+                else if (command == "Geocode")
+                {
+                    Console.WriteLine("Your request:");
+                    string request = Console.ReadLine();
+                    LandPoint temp = LandPoint.Geocode(command);
+                    if (temp == null)
+                    {
+                        Console.WriteLine("Nothing found");
+                    }
+                    else
+                    {
+                        Console.WriteLine(temp.adress);
+                    }
+                    Console.WriteLine("Print ok to add or no to ignore results");
+                    string valid = Console.ReadLine();
+                    if (valid == "ok")
+                    {
+                        points.Add(temp);
+                    }
                 }
                 command = Console.ReadLine();
             }
